@@ -6,7 +6,7 @@ Script QGIS untuk memprediksi peta **Above Ground Carbon (AGC)** dari titik samp
 
 ## Deskripsi
 
-<img width="705" height="645" alt="image" src="https://github.com/user-attachments/assets/e32f562f-45b3-46f7-8db3-5c20cfa946e8" />
+<img width="699" height="639" alt="image" src="https://github.com/user-attachments/assets/73be95e5-a0e4-4f9b-a4f2-995b8b613d3b" />
 
 Script ini merupakan QGIS Processing Algorithm yang mengotomatiskan alur estimasi stok karbon hutan dari data penginderaan jauh. Berbeda dari pendekatan konvensional yang menggunakan NDVI, script ini menggunakan **kNDVI berbasis RBF kernel** yang terbukti lebih stabil dan tidak jenuh pada vegetasi rapat (Camps-Valls et al., 2021).
 
