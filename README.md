@@ -6,6 +6,8 @@ Script QGIS untuk memprediksi peta **Above Ground Carbon (AGC)** dari titik samp
 
 ## Deskripsi
 
+<img width="705" height="645" alt="image" src="https://github.com/user-attachments/assets/e32f562f-45b3-46f7-8db3-5c20cfa946e8" />
+
 Script ini merupakan QGIS Processing Algorithm yang mengotomatiskan alur estimasi stok karbon hutan dari data penginderaan jauh. Berbeda dari pendekatan konvensional yang menggunakan NDVI, script ini menggunakan **kNDVI berbasis RBF kernel** yang terbukti lebih stabil dan tidak jenuh pada vegetasi rapat (Camps-Valls et al., 2021).
 
 ### Alur Kerja
@@ -148,8 +150,3 @@ Koordinat titik harus berada di dalam extent raster NIR dan RED.
 - Camps-Valls, G., Campos-Taberner, M., Moreno-Martínez, Á., Walther, S., Duveiller, G., Cescatti, A., ... & Running, S. W. (2021). A unified vegetation index for quantifying the terrestrial biosphere. *Science Advances*, 7(9), eabc7447.
 - IPCC. (2006). *2006 IPCC Guidelines for National Greenhouse Gas Inventories, Volume 4: Agriculture, Forestry and Other Land Use*. Chapter 4, Table 4.3 & 4.4.
 
----
-
-## Lisensi
-
-MIT License — bebas digunakan dan dimodifikasi dengan menyertakan atribusi.
